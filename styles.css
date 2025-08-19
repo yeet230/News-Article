@@ -1,0 +1,37 @@
+html {
+    background-color: rgb(240, 248, 255);
+    margin: 15px auto;
+    max-width: 60%;
+    text-align: center;
+    font-size: 48px;
+}
+
+.header {
+    background-color: #A2D5F2;
+    padding: 5px;
+    border: 8px solid #76C1e4;
+    font-size: 1vw;
+    margin: 5px auto;
+}
+
+.content {
+    padding: 20px;
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+span{
+    font-weight: bold;
+
+}
+body {
+    background-color: rgb(230, 240, 255);
+    margin: 15px auto;
+    padding: 10px 20px;
+}
+
+img {
+    width: 90%;
+    
+}
