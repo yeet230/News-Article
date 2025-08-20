@@ -11,28 +11,66 @@ html {
     background-color: #A2D5F2;
     padding: 5px;
     border: 8px solid #76C1e4;
-    font-size: 1vw;
+    font-size: clamp(1.5vw, 2.3vw, 4vw);
     margin: 5px auto;
 }
 
-.content {
-    padding: 20px;
-    font-size: 18px;
-    width: 70%;
-    margin: 0 auto;
-    text-align: left;
-}
 span{
     font-weight: bold;
 
 }
 body {
-    background-color: rgb(230, 240, 255);
+    background-color: rgb(255, 255, 255);
     margin: 15px auto;
     padding: 10px 20px;
 }
 
+/* Article wrapper */
+.content {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff; /* White for contrast */
+    border: 1px solid #B0C4DE; /* Light Steel Blue */
+    box-shadow: 0 2px 6px rgba(176,196,222,0.4);
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Byline under headline */
+.byline {
+    font-size: 0.6rem;
+    color: #708090; /* Slate Gray */
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1.2rem;
+}
+
+/* Bold inline */
+span {
+    font-weight: bold;
+}
+
+/* Images */
 img {
-    width: 90%;
-    
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border: 3px solid #E6F0FF; /* soft blue edge */
+}
+
+/* Pull Quotes */
+blockquote {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #2F4F4F;
+    border-left: 4px solid #87CEFA; /* Light Sky Blue */
+    background: #F8FCFF;
+    padding-left: 15px;
+    margin: 2rem 0;
 }
