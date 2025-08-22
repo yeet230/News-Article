@@ -1,38 +1,18 @@
 @import url('Global-styles.css');
 
-html {
-    font-size: 48px;
-    max-width: 50ch;
-    width: 100%;
-}
-
 span {
     font-weight: bold;
-
-}
-section {
-    background-color: rgb(255, 255, 255);
-    margin: 15px auto;
-    padding: 10px 20px;
-    width: 97%;
 }
 
-/* Paragraphs */
-p {
-    margin-bottom: 1.2rem;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #0a0a0a;
 }
 
-/* Images */
-img {
-    width: 100%;
-    height: auto;
-    margin: 10px auto;
-    border: 3px solid #E6F0FF; /* soft blue edge */
-}
-
-/* Pull Quotes */
 blockquote {
-    font-size: 0.8rem;
+    font-size: 1.8rem;
     font-style: italic;
     color: #2F4F4F;
     border-left: 4px solid #87CEFA; /* Light Sky Blue */
@@ -41,31 +21,46 @@ blockquote {
     margin: 2rem 0;
 }
 
-/* Article wrapper */
+img {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border: 3px solid #E6F0FF; /* soft blue edge */
+}
+
 .content {
     max-width: 750px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 20px;
-    background: #ffffff; /* White for contrast */
-    border: 1px solid #B0C4DE; /* Light Steel Blue */
-    box-shadow: 0 2px 6px rgba(176,196,222,0.4);
+    padding-top: 5px;
+    background: #ffffff;
     font-size: 18px;
     line-height: 1.6;
     text-align: left;
-}
-
-/* Byline under headline */
-.byline {
-    font-size: 0.6rem;
-    color: #708090; /* Slate Gray */
-    margin-bottom: 20px;
-    font-style: italic;
 }
 
 .header {
     background-color: #A2D5F2;
     padding: 5px;
     border: 8px solid #76C1e4;
-    font-size: clamp(1.5vw, 2.3vw, 4vw);
-    margin: 5px auto;
+    font-size: clamp(0.5vw, 1.3vw, 4vw);
+    margin: 0px auto;
+    margin-top: 25px;
+    width: 95%;
+}
+
+.byline {
+    font-size: 0.6rem;
+    color: #708090; /* Slate Gray */
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.article {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
