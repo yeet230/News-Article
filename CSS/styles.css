@@ -1,2 +1,62 @@
 @import url("global-styles.css");
 
+body {
+    background-color: #f0f8ff;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.article-card {
+    box-shadow: rgba(30, 30, 60, 0.06) 0px 2px 8px;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 35ch;
+    
+    
+    
+}
+
+.featured-article {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 30vw;
+}
+
+.featured-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: #e0e0e0 solid 2px;
+}
+
+
+.read-more {
+    align-self: flex-start;
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+    background: rgb(57, 73, 171);
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.read-more:hover {
+    background: rgb(38, 50, 122);
+}

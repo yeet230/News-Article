@@ -4,7 +4,7 @@ html {
     width: 100%;
     font-family: 'Segoe UI', Arial, sans-serif;
     color: #222;
-
+    overflow-x: hidden;
 }
 
 header {
@@ -13,7 +13,6 @@ header {
     text-align: center;
     padding: 20px 60px;
     width: 100%;
-    margin: -15px;
 }
 
 header h1 {
